@@ -1,4 +1,5 @@
 # Selenium Docker Setup Guide
+![Final](readme-src/IMG_0288.png)
 
 ## 1. Open Codespaces
 Launch your GitHub Codespaces environment.
