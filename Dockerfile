@@ -5,9 +5,9 @@ FROM selenium/standalone-chrome
 ENV SE_VNC_PASSWORD=mypass
 
 # Install Python and necessary dependencies
-RUN apt-get update && apt-get install -y \
-    python3 \
-    python3-pip
+#RUN apt-get update && apt-get install -y \
+ #   python3 \
+  #  python3-pip
 
 # Copy the requirements file
 COPY requirements.txt /app/requirements.txt
@@ -22,4 +22,4 @@ COPY selenium_test.py /app/selenium_test.py
 WORKDIR /app
 
 # Run the Selenium script
-CMD ["python3", "/app/selenium_test.py"]
+CMD ["python3", "./selenium_test.py"]
