@@ -9,3 +9,10 @@ docker run -d --name selenium \
   -e SCREEN_DEPTH=24 \
   selenium/standalone-chrome
 ```
+
+
+
+
+
+使わない
+docker pull stasshe/selenium-standalone-chrome:latest
